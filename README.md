@@ -3,11 +3,9 @@
 
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description of your app.  Describe how to use the app.}
-
-{Describe your purpose for creating this app.}
+This is a basic soundboard app made in Android Studio. Even though the app contains a few sounds, 
+it is able to play a sound the user selects without looping. The purpose of the app is to demonstrate a single feature, 
+in this case SoundPool (an importable Android Studio tool for sounds), in an Android app.
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
 
@@ -15,19 +13,24 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the app}
+I used Andorid Studio, and the types of programming I used includes:
+* Kotlin
+* XML file
+* [SoundPool](https://developer.android.com/reference/android/media/SoundPool)
+* .wav files
 
-{Describe the programming language that you used and any libraries.}
+Kotlin was important for having the outline for how the app works. The XML file in the program
+took the Kotlin file, I added buttons and contraints to make the buttons work. The application SoundPool was able to add
+the sounds with the .wav files.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [YouTube](https://www.youtube.com/)
+* [Android Developers](https://developer.android.com/)
+* [SoundPool - Android](https://developer.android.com/reference/android/media/SoundPool)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Make a better outline for future project.
+* Keep scope of the project simple and not too complex.
+* Keep a good schedule with to-do lists.
