@@ -6,13 +6,71 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <!-- Each button has a specific id that is important for the
+     Kotlin file in the MainActivity. Also, in the design mode, the
+     rearrangement of the margin and height of the button helps with the
+     functionality of the app.-->
+    <Button
+        android:id="@+id/button_sound1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!!!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="212dp"
+
+        android:text="Blast"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_sound2" />
+
+    <Button
+        android:id="@+id/button_sound2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="132dp"
+
+        android:text="Click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_sound5" />
+
+    <Button
+        android:id="@+id/button_sound3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="40dp"
+
+        android:text="Complete!"
+        app:layout_constraintStart_toEndOf="@+id/button_sound5"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button_sound4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="132dp"
+
+        android:text="Congrats"
+        app:layout_constraintStart_toEndOf="@+id/button_sound2"
+        app:layout_constraintTop_toBottomOf="@+id/button_sound3" />
+
+    <Button
+        android:id="@+id/button_sound5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="40dp"
+        android:text="Jump"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_sound6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="212dp"
+        android:text="Pause"
+        app:layout_constraintStart_toEndOf="@+id/button_sound1"
+        app:layout_constraintTop_toBottomOf="@+id/button_sound4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
