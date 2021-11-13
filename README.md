@@ -9,7 +9,7 @@ in this case SoundPool (an importable Android Studio tool for sounds), in an And
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=qC0VSbBEiUQ)
 
 # Development Environment
 
